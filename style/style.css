@@ -1,0 +1,134 @@
+body {
+    background: #F5F5F5;
+}
+header {
+    background: #F5F5F5;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cabecera {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 36px 0 50px 0;
+}
+nav {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+nav a {
+    font: size 90px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.title2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #000000;
+}
+.title4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.title3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #000000;
+}
+.eva {
+    width: 100%;
+    background: url(../img/fotofondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 200px;
+    padding-bottom: 1%;
+    align-content: center;
+}
+.fondo2 {
+    width: 100%; height: 600px;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10px;
+    align-content: center;
+
+}
+.fondo3 {
+    width: 100%;
+    background: url(../img/foto\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-content: center;
+
+}
+main {
+    width: 100%;
+}
+.rosa {
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.pepe {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    
+}
+.rogelio {
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+}
+.rosa img {
+    width: 45%;
+    height: max-content;
+}
+.evatexto {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pepe img {
+    width: 45%;
+    height: max-content;
+}
+.rogelio img {
+    width: 45%;
+    height: max-content;
+}
